@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#4B0082" stroke="#FFFFFF" stroke-width="4"/>
+  
+  <!-- Quantum circuit representation -->
+  <line x1="40" y1="80" x2="160" y2="80" stroke="#FFFFFF" stroke-width="3"/>
+  <line x1="40" y1="120" x2="160" y2="120" stroke="#FFFFFF" stroke-width="3"/>
+  
+  <!-- Gate symbols -->
+  <rect x="60" y="70" width="20" height="20" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="120" y="70" width="20" height="20" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <rect x="90" y="110" width="20" height="20" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Connection line representing entanglement -->
+  <line x1="70" y1="90" x2="70" y2="120" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="130" y1="90" x2="130" y2="120" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Fractal pattern representing self-healing -->
+  <path d="M100,50 L115,70 L85,70 Z" fill="#BA55D3" stroke="#FFFFFF" stroke-width="1"/>
+  <path d="M85,70 L100,90 L70,90 Z" fill="#9370DB" stroke="#FFFFFF" stroke-width="1" opacity="0.8"/>
+  <path d="M115,70 L130,90 L100,90 Z" fill="#9370DB" stroke="#FFFFFF" stroke-width="1" opacity="0.8"/>
+  
+  <!-- Self-healing representation -->
+  <circle cx="100" cy="150" r="15" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M92,150 L108,150 M100,142 L100,158" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Text element -->
+  <text x="100" y="185" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Q-SHE</text>
+</svg>
